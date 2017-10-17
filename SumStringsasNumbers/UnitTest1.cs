@@ -17,14 +17,35 @@ namespace SumStringsasNumbers
         public void TestMethod2()
         {
             var sumStringsasNumbers = new SumStringsasNumbers();
-            Assert.AreEqual("579", sumStringsasNumbers.kata("123", "456"));
+            Assert.AreEqual("5", sumStringsasNumbers.kata("", "5"));
         }
 
         [TestMethod]
         public void TestMethod3()
         {
             var sumStringsasNumbers = new SumStringsasNumbers();
-            Assert.AreEqual("000", sumStringsasNumbers.kata("123", "4567"));
+            Assert.AreEqual("20", sumStringsasNumbers.kata("10", "10"));
+        }
+
+        [TestMethod]
+        public void TestMethod4()
+        {
+            var sumStringsasNumbers = new SumStringsasNumbers();
+            Assert.AreEqual("145", sumStringsasNumbers.kata("100", "45"));
+        }
+
+        [TestMethod]
+        public void TestMethod5()
+        {
+            var sumStringsasNumbers = new SumStringsasNumbers();
+            Assert.AreEqual("501", sumStringsasNumbers.kata("456", "45"));
+        }
+
+        [TestMethod]
+        public void TestMethod6()
+        {
+            var sumStringsasNumbers = new SumStringsasNumbers();
+            Assert.AreEqual("8670", sumStringsasNumbers.kata("00103", "08567"));
         }
     }
 }
