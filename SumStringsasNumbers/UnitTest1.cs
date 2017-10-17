@@ -45,7 +45,7 @@ namespace SumStringsasNumbers
         public void TestMethod6()
         {
             var sumStringsasNumbers = new SumStringsasNumbers();
-            Assert.AreEqual("8670", sumStringsasNumbers.kata("00103", "08567"));
+            Assert.AreEqual("85799", sumStringsasNumbers.kata("00100", "085699"));
         }
     }
 }
