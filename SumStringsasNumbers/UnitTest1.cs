@@ -10,7 +10,7 @@ namespace SumStringsasNumbers
         public void TestMethod1()
         {
             var sumStringsasNumbers = new SumStringsasNumbers();
-            Assert.AreEqual("000", sumStringsasNumbers.kata("", "456"));
+            Assert.AreEqual("456", sumStringsasNumbers.kata("", "456"));
         }
 
         [TestMethod]
